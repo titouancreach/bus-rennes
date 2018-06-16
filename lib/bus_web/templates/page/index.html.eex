@@ -1,0 +1,4 @@
+<div class="flex-container">
+  <a href="/schedule?line=C4,0,C6,0,N1,0&stop=Pont%20de%20Strasbourg" class="flex-element" style="background:#2ecc71"> <div> Vers République </div> </a>
+  <a href="/schedule?line=C4,1,C6,1,N1,1&stop=Republique" class="flex-element" style="background: #3498db"> <div>Vers la maison</div> </a>
+<div>

@@ -1,0 +1,16 @@
+<h2> <%= @title %></h2>
+
+<ul class="schedule-container">
+ <%= for {key, i} <- Enum.with_index(@schedule) do %>
+ <li class="schedule-item <%= getCssListClass(i) %>">
+    <div> 
+        <span class="line">[<%= line key %>]</span>
+        <span class="remaining-time"> <%= remainingTime key %></span>
+    </div>
+ </li>
+ <% end %>
+</ul>
+
+<div class="button-container">
+<a href="/" class="button"><div class="button"> Home </div> </a>
+</div>
